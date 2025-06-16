@@ -11,12 +11,11 @@ void setup() {
 }
 
 void loop() {
-  float a1 = analogRead(A1);
-  float a7 = analogRead(A7);
+  float left = analogRead(A1);
+  float right = analogRead(A7);
 
-  float raz = v1 - v7;  //разница напряжений
+  float dif= left - right;  //разница напряжений
   
-
 }
 
 
